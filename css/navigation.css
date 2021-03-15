@@ -1,0 +1,80 @@
+.navigation {
+    display:flex;
+    flex-flow:row nowrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.navigation.header__navigation {
+    flex-grow: 1;
+}
+
+.navigation__item {
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: antiquewhite;
+}
+
+.navigation__item_font-style_bold {
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+.navigation__item_hover:hover {
+    border-bottom: 2px solid SteelBlue;;
+}
+
+.navigation__item_link:link {
+    text-decoration: none;
+}
+
+.navigation__item_active:active {
+    text-decoration: none;
+}
+
+.navigation__button {
+    display: none;
+}
+
+.navigation__menu-ico {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .navigation__item {
+        font-size: 13px;
+    }
+
+    .navigation__item_font-style_bold {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation__menu-ico {
+        display: block;
+        position: absolute;
+        top: 20px;
+    }
+
+    .navigation {
+        padding: 40px 0px 0px 20px;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .navigation__item {
+       display: none;
+       padding-top: 20px;
+    }
+    .navigation__button:checked ~ .navigation__item.navigation__item_link {
+       display: block;
+    }
+}

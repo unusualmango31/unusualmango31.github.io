@@ -1,0 +1,43 @@
+.promo__content {
+    padding: 50px 0px;
+    background: url(/img/first_screen.jpg) center center/cover no-repeat;;
+    max-height: 220vh;
+}
+
+.promo__title {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: antiquewhite;
+}
+
+.promo__this-is-simple {
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 21px;
+}
+.promo__this-is-simple_color_steelblue {
+    color: SteelBlue;
+}
+.promo__text {
+    padding: 0px 13px;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 23px;
+
+    color: antiquewhite;
+}
+
+.promo__text_color_steelblue {
+    color: SteelBlue;
+    text-transform: uppercase;
+    font-weight: 900;
+}

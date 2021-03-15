@@ -1,0 +1,17 @@
+.more.promo__more {
+    margin-top: 100px;
+}
+.more__text {
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: antiquewhite;
+}
+
+.more__img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}

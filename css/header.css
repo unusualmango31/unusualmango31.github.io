@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 5px solid antiquewhite;
+}
+
+.header .header__container {
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header_color_dimgray {
+    background-color: DimGray;
+}

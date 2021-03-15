@@ -1,0 +1,48 @@
+.imperial-navy {
+}
+
+.imperial-navy__content {
+    background: url(/img/imperial_navy_background.jpg) center center/cover no-repeat;
+    padding: 50px 0;
+    max-height: 220vh;
+}
+
+.imperial-navy_color_dimgray {
+    background-color: dimgray;
+}
+
+.imperial-navy__logo {
+    display: block;
+}
+
+.imperial-navy__logo_size_s {
+    height: 130px;
+    width: 130px;
+}
+
+.imperial-navy__container {
+    display: flex;
+}
+
+.imperial-navy__text {
+    text-indent: 1em;
+    padding: 0px 13px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 28px;
+}
+.imperial-navy__text_color_antiquewhite {
+    color: antiquewhite;
+}
+
+.imperial-navy__header {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+.imperial-navy__header_color_steelblue {
+    color: steelblue;
+}

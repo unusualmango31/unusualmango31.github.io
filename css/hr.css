@@ -1,0 +1,18 @@
+.hr {
+    border: none;
+}
+
+.hr_color_steelblue {
+    color: steelblue;
+    background-color: steelblue;
+}
+
+.hr_size_s {
+    height: 3px;
+    width: 60%;
+}
+
+
+.hr_position_center {
+    margin: 0 auto;
+}
